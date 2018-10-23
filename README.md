@@ -20,21 +20,7 @@
 
 > [Future work](#future-work)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+> [Citations](#citations)
 
 ## Introduction
 Space Impact is a two-dimensional space battle game. The player controls a spaceship that moves vertically and horizontally through the level shooting missiles at upcoming enemies. There is ammunition bar that keeps track of how many bullets the player currently has. If the bar is below maximum capacity, it refills one bullet every second. Every enemy destroyed credits the player with one point. The points scored is displayed once the game is over. The high score is updated when a game is over, and is displayed on the start menu. The game is over when the player collides with an enemy, or an enemy collides with the player. The game can also be reset at any point, which returns the player to the start menu.
