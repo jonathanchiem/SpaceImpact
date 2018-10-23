@@ -38,6 +38,7 @@ Space Impact is a two-dimensional space battle game. The player controls a space
 
 ### Pinout
 ### Software
+![spaceimpactblockdiagrams](https://user-images.githubusercontent.com/42078356/47338757-f79eb780-d64d-11e8-82fd-68a54a01dbcb.png)
 
 When the game turns on, the start menu and high score are shown. If B5 (start button) is pushed, then the game transitions to a playing state, moving all the other state machines from their initial state. Ship spawning spawns the ship when start is flagged. Ship movement goes to a wait state that waits for a button input when start is flagged. Ship firing goes to a wait state that waits for an input from B4 (shoot button), and outputs if the first or second enemy is hit and the amount of ammo to the shift register to display on the LED bar. Enemy 1 and 2 both spawn the enemy and begin the enemies’ movement patterns. If either enemy is hit, the corresponding state machine is put into a respawn state, and continues. If the player collides with an enemy a lose flag is triggered, which brings the first state machine to a gameover state that checks if the score is greater than the high score; if true, then the score is saved as the new high score in EEPROM.
 
