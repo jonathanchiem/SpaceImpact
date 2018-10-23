@@ -25,6 +25,7 @@
 ## Introduction
 Space Impact is a two-dimensional space battle game. The player controls a spaceship that moves vertically and horizontally through the level shooting missiles at upcoming enemies. There is ammunition bar that keeps track of how many bullets the player currently has. If the bar is below maximum capacity, it refills one bullet every second. Every enemy destroyed credits the player with one point. The points scored is displayed once the game is over. The high score is updated when a game is over, and is displayed on the start menu. The game is over when the player collides with an enemy, or an enemy collides with the player. The game can also be reset at any point, which returns the player to the start menu.
 
+<img src = "https://user-images.githubusercontent.com/42078356/47338968-92979180-d64e-11e8-9ffd-02b0fd71fbcb.JPG" width="400"> <img src = "https://user-images.githubusercontent.com/42078356/47338976-975c4580-d64e-11e8-9568-3cae20d17712.JPG" width="400">
 
 ## Hardware
 ### Parts List
@@ -37,6 +38,8 @@ Space Impact is a two-dimensional space battle game. The player controls a space
 
 
 ### Pinout
+![spaceimpactpinout](https://user-images.githubusercontent.com/42078356/47338963-8f9ca100-d64e-11e8-8292-a45b6306403f.png)
+
 ### Software
 ![spaceimpactblockdiagrams](https://user-images.githubusercontent.com/42078356/47338757-f79eb780-d64d-11e8-82fd-68a54a01dbcb.png)
 
